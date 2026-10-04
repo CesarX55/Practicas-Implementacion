@@ -1,0 +1,18 @@
+# Salidas de compilación de Java
+bin/
+*.class
+*.bin
+*.javac
+
+# Carpetas comunes de compilación (Maven/Gradle/otros)
+target/
+out/
+build/
+
+# Parches generados durante la práctica
+*.patch
+
+# Archivos temporales de editores
+*~
+.DS_Store
+.vscode/*.log
