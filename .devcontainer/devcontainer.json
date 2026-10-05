@@ -1,0 +1,21 @@
+{
+  "name": "Git y Java Practica",
+  "image": "mcr.microsoft.com/devcontainers/java:1-21-bookworm",
+  "features": {
+    "ghcr.io/devcontainers/features/java:1": {
+      "version": "21",
+      "installMaven": true
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "vscjava.vscode-java-pack",
+        "vscjava.vscode-maven",
+        "vmware.vscode-spring-boot",
+        "bierner.markdown-mermaid"
+      ]
+    }
+  },
+  "postCreateCommand": "git --version && java -version && javac -version && mvn --version"
+}
