@@ -1,0 +1,85 @@
+diff --git a/README.md b/README.md
+index c816851..7a84ec9 100755
+--- a/README.md
++++ b/README.md
+@@ -35,7 +35,7 @@ mvn --version
+ 
+ Actividad: copia las versiones que obtuviste en tus apuntes o en el reporte de la práctica.
+ 
+-- [ ] Confirmé que Git, java, javac y Maven están disponibles.
++- [ X ] Confirmé que Git, java, javac y Maven están disponibles.
+ 
+ Los ejemplos están en `src/`. La carpeta `bin/` se usa solamente para archivos compilados y está excluida por `.gitignore`.
+ 
+@@ -54,8 +54,8 @@ Observa que `javac` genera archivos `.class` en `bin/`, mientras que `java` ejec
+ 
+ Actividad: modifica el mensaje de `Saludo.java` o agrega una operación a `Calculadora.java`, vuelve a compilar y ejecuta nuevamente la clase correspondiente.
+ 
+-- [ ] Compilé y ejecuté los dos ejemplos.
+-- [ ] Realicé una modificación en un archivo .java y comprobé su resultado.
++- [ X ] Compilé y ejecuté los dos ejemplos.
++- [ X ] Realicé una modificación en un archivo .java y comprobé su resultado.
+ 
+ ## 3. Preparar el repositorio
+ 
+@@ -77,9 +77,9 @@ git diff --cached
+ 
+ Actividad: prepara únicamente los cuatro archivos indicados. Antes de continuar, verifica que `git diff --cached` muestre tus cambios y que no incluya archivos `.class`.
+ 
+-- [ ] Revisé el estado inicial con git status.
+-- [ ] Agregué los archivos fuente y de configuración con git add.
+-- [ ] Revisé el contenido preparado con git diff --cached.
++- [ X ] Revisé el estado inicial con git status.
++- [ X ] Agregué los archivos fuente y de configuración con git add.
++- [ X ] Revisé el contenido preparado con git diff --cached.
+ 
+ ## 4. Crear y corregir commits
+ 
+@@ -109,9 +109,9 @@ git log --oneline -1
+ 
+ Actividad: después del primer commit, cambia una línea del README, ejecuta `git diff`, prepara el cambio y usa `git commit --amend --no-edit`. Comprueba que el último commit contiene la modificación.
+ 
+-- [ ] Creé el primer commit con un mensaje descriptivo.
+-- [ ] Revisé un cambio con git diff antes de prepararlo.
+-- [ ] Incorporé el cambio al commit anterior con git commit --amend.
++- [ X ] Creé el primer commit con un mensaje descriptivo.
++- [ X ] Revisé un cambio con git diff antes de prepararlo.
++- [ X ] Incorporé el cambio al commit anterior con git commit --amend.
+ 
+ ## 5. Crear una rama y combinarla con merge
+ 
+@@ -139,9 +139,9 @@ git commit
+ 
+ Actividad: en `mejora-instrucciones`, agrega una aclaración breve al README. Después integra la rama en main y comprueba el historial con `git log --oneline --all --decorate`.
+ 
+-- [ ] Creé la rama mejora-instrucciones.
+-- [ ] Creé un commit dentro de esa rama.
+-- [ ] Regresé a main y combiné la rama con git merge.
++- [ X ] Creé la rama mejora-instrucciones.
++- [ X ] Creé un commit dentro de esa rama.
++- [ X ] Regresé a main y combiné la rama con git merge.
+ 
+ ## 6. Compartir y recibir cambios
+ 
+@@ -168,9 +168,9 @@ Antes de usar push o pull, confirma que tienes permiso de acceso y que sabes cu
+ 
+ Actividad: no ejecutes push sobre un repositorio ajeno sin autorización. Si tienes un remoto de práctica, publica tu rama; después ejecuta `git pull` y registra si había cambios nuevos. Si no tienes permisos, muestra la salida de `git remote -v` y explica por qué no puedes publicar.
+ 
+-- [ ] Revisé el remoto y las ramas disponibles.
+-- [ ] Intenté o realicé un push con autorización.
+-- [ ] Ejecuté git pull y comprendí su resultado.
++- [ X ] Revisé el remoto y las ramas disponibles.
++- [ X ] Intenté o realicé un push con autorización.
++- [ X ] Ejecuté git pull y comprendí su resultado.
+ 
+ ## 7. Generar un archivo de parche
+ 
+@@ -237,4 +237,5 @@ Antes de entregar, verifica todo lo siguiente:
+ 
+ 
+ 
+-MODIFICACION DE README PARA LA PRACTICA: Hola jaja
+\ No newline at end of file
++MODIFICACION DE README PARA LA PRACTICA: Hola jaja
++2DA MODIFICACION: OLA
+\ No newline at end of file
