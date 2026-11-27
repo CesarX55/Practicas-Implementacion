@@ -1,0 +1,17 @@
+{
+  "name": "Spring Boot JPA (Java 21 + PostgreSQL)",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "app",
+  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+  "forwardPorts": [8080, "db:5432"],
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y postgresql-client",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "vscjava.vscode-java-pack",
+        "vmware.vscode-boot-dev-pack",
+        "cweijan.vscode-postgresql-client2"
+      ]
+    }
+  }
+}
